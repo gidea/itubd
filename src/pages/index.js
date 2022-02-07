@@ -148,25 +148,25 @@ const IndexPage = () => (
 
         <div class="lg:w-4/6 mx-auto">
           <div class="flex flex-col text-center w-full mb-10 mx-auto">
-            <h3 class="text-xs text-blue-800 tracking-widest font-medium title-font mb-1">CASE STUDY</h3>
-            <h2 class="sm:text-3xl mx-auto text-2xl font-medium title-font text-gray-900">From research to successful commercial product</h2>
+            <h3 class="text-xs text-blue-800 bg-transparent	tracking-widest font-medium title-font mb-1">CASE STUDY</h3>
+            <h2 class="sm:text-3xl mx-auto text-2xl font-medium title-font text-gray-800 bg-transparent	">From research to successful commercial product</h2>
 
 
           </div>
 
-          <div class="rounded-lg h-64 overflow-hidden">
+          <div class="rounded-lg h-64 bg-transparent overflow-hidden">
             <StaticImage
               src="../images/ituflowrobotics.png"
-              class="object-cover object-center h-full w-full"
+              class="object-cover object-center h-full w-full bg-transparent"
               formats={["auto", "webp", "avif"]}
-              alt="A Gatsby astronaut"
+              alt="Kasper Stoy and Andres Faina next to a photo of the liquid handling robot"
               style={{ marginBottom: `1.45rem` }}
             />
           </div>
           <div class="flex flex-col sm:flex-row mt-10">
             <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
               <div class="flex flex-col items-center text-center justify-center">
-                <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Kasper Støy, Andres Faina</h2>
+                <h2 class="font-medium title-font mt-4 text-gray-900 bg-transparent	text-lg">Kasper Støy, Andres Faina</h2>
                 <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
                 <p class="text-base text-gray-900 italic">"ITU Business Development has helped us transform our research idea into a company and is still today an active partner in moving our high potential company forward."</p>
               </div>
@@ -185,7 +185,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600 bg-transparent body-font">
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex w-full mb-20 flex-wrap">
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Student Startups</h1>
