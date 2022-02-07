@@ -24,7 +24,7 @@ const IndexPage = () => (
       <div class="container px-5 py-24 mx-auto">
         <div id="content" class="flex flex-col text-center w-full mb-12">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Business Development at the IT University of Copenhagen</h1>
-          <p class="lg:w-2/4 mx-auto leading-relaxed text-base">As hotbeds of new knowledge and technology, universities are essential catalysts of innovation. Since 1999, knowledge and technology from the IT University of Copenhagen have been converted to more than 100 faculty and student start-up companies, creating new wealth and jobs in the wider Danish society. Relative to its size, the IT University of Copenhagen is the number one university in Denmark when it comes to student venture creation.</p>
+          <p class="lg:w-2/4 mx-auto leading-relaxed text-gray-700 text-base">As hotbeds of new knowledge and technology, universities are essential catalysts of innovation. Since 1999, knowledge and technology from the IT University of Copenhagen have been converted to more than 100 faculty and student start-up companies, creating new wealth and jobs in the wider Danish society. Relative to its size, the IT University of Copenhagen is the number one university in Denmark when it comes to student venture creation.</p>
         </div>
 
         <div class="lg:w-2/3 mx-auto">
@@ -32,7 +32,7 @@ const IndexPage = () => (
             <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={ITU} />
             <div class="text-center relative z-10 w-full">
               <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Licensing IP &amp; Technologies</h2>
-              <p class="leading-relaxed text-sm text-black">Opportunities from our patent portfolio</p>
+              <p class="leading-relaxed text-gray-900 text-sm text-black">Opportunities from our patent portfolio</p>
               <button class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0">Learn more
               </button>
             </div>
@@ -55,7 +55,7 @@ const IndexPage = () => (
                 <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={students} />
                 <div class="text-center relative z-10 w-full">
                   <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Student Startups</h2>
-                  <p class="leading-relaxed text-sm text-black">Opportunities for students to start a company</p>
+                  <p class="leading-relaxed text-gray-900 text-sm text-black">Opportunities for students to start a company</p>
                   <button class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0">Learn more
                    
                   </button>
@@ -71,9 +71,9 @@ const IndexPage = () => (
     <section class="text-gray-600 body-font">
       <div class=" w-full bg-orange-200 px-5 py-24">
         <div class="flex flex-col text-center w-full mb-20 mx-auto">
-          <h2 class="text-xs text-blue-800 tracking-widest font-medium title-font mb-1">Interested?</h2>
+          <h2 class="text-xs text-gray-900 tracking-widest font-medium title-font mb-1">WELCOME</h2>
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900"> This is how can we help you</h1>
-          <p class="w-1/3 mx-auto text-sm leading-relaxed">The university has a well-established process for evaluating commercial potential of inventions created by faculty and PhD students, where some become attractive licensing opportunities or the basis for new spin-offs.</p>
+          <p class="w-1/3 mx-auto text-sm text-gray-800 leading-relaxed">The university has a well-established process for evaluating commercial potential of inventions created by faculty and PhD students, where some become attractive licensing opportunities or the basis for new spin-offs.</p>
 
         </div>
         <div class="lg:w-2/3 mx-auto flex flex-wrap -m-4">
@@ -90,7 +90,7 @@ const IndexPage = () => (
                 <h2 class="text-gray-900 pt-4 text-xl  title-font font-medium">For students</h2>
               </div>
               <div class="flex-grow">
-                <p class="leading-relaxed text-base">When you're starting a company for the first time, it can be a little intimidating. We make it easier with workshops, events &amp; activities which are meant to give you the proper network &amp; skills to start your own company and build a prototype.</p>
+                <p class="leading-relaxed text-gray-800 text-base">When you're starting a company for the first time, it can be a little intimidating. We make it easier with workshops, events &amp; activities which are meant to give you the proper network &amp; skills to start your own company and build a prototype.</p>
                 <a class="mt-3 text-blue-800 inline-flex items-center">Learn More
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -110,7 +110,7 @@ const IndexPage = () => (
                 <h2 class="text-gray-900 pt-4 text-xl title-font font-medium">For researchers</h2>
               </div>
               <div class="flex-grow">
-                <p class="leading-relaxed text-base">As a researcher you might have made an invention or a piece of software which is valuable but might still need work to be commercialised. With us onboard you can reach its true potential and spin-off into a standalone company with our help.</p>
+                <p class="leading-relaxed text-gray-800 text-base">As a researcher you might have made an invention or a piece of software which is valuable but might still need work to be commercialised. With us onboard you can reach its true potential and spin-off into a standalone company with our help.</p>
                 <a class="mt-3 text-blue-800 inline-flex items-center">Learn More
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -130,7 +130,7 @@ const IndexPage = () => (
                 <h2 class="text-gray-900 pt-4 text-xl title-font font-medium">For Industry</h2>
               </div>
               <div class="flex-grow">
-                <p class="leading-relaxed text-base">Intellectual property stemming from research conducted at the IT University including patented technologies, software, data and know-how can be offered for commercial use, under licence from ITU Business Development A/S.</p>
+                <p class="leading-relaxed text-gray-800 text-base">Intellectual property stemming from research conducted at the IT University including patented technologies, software, data and know-how can be offered for commercial use, under licence from ITU Business Development A/S.</p>
                 <a class="mt-3 text-blue-800 inline-flex items-center">Learn More
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -168,12 +168,12 @@ const IndexPage = () => (
               <div class="flex flex-col items-center text-center justify-center">
                 <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Kasper Støy, Andres Faina</h2>
                 <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-                <p class="text-base">"ITU Business Development has helped us transform our research idea into a company and is still today an active partner in moving our high potential company forward."</p>
+                <p class="text-base text-gray-900 italic">"ITU Business Development has helped us transform our research idea into a company and is still today an active partner in moving our high potential company forward."</p>
               </div>
             </div>
             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-              <p class="leading-relaxed text-lg mb-4">A new liquid handling robot developed as a spin-off company by researchers at the IT University of Copenhagen is set to improve work processes in laboratories by making it easy to automate repetitive and physically demanding tasks.</p>
-              <p>Read more about the start of the company in the <a title="ITU Business Development" href="https://en.itu.dk/about-itu/press/news-from-itu/2016/itu-researchers-launch-robot-spin-out"> ITU press announcement</a></p>
+              <p class="leading-relaxed text-gray-800 text-lg mb-4">A new liquid handling robot developed as a spin-off company by researchers at the IT University of Copenhagen is set to improve work processes in laboratories by making it easy to automate repetitive and physically demanding tasks.</p>
+              <p class="text-gray-800 ">Read more about the start of the company in the <a title="ITU Business Development" href="https://en.itu.dk/about-itu/press/news-from-itu/2016/itu-researchers-launch-robot-spin-out"> ITU press announcement</a></p>
               <a class="text-blue-700 inline-flex items-center" href="https://flow-robotics.com">Flow Robotics website
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -190,7 +190,7 @@ const IndexPage = () => (
         <div class="flex w-full mb-20 flex-wrap">
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Student Startups</h1>
           <div class="lg:pl-6 lg:w-2/3 mx-auto ">
-          <p class="leading-relaxed text-base">Here are some of the student-led companies we've had the pleasure of supporting along the years.<br />The journey of starting a company and applying your knowledge in practice remains an invaluable experience!</p>
+          <p class="leading-relaxed text-gray-800 text-base">Here are some of the student-led companies we've had the pleasure of supporting along the years.<br />The journey of starting a company and applying your knowledge in practice remains an invaluable experience!</p>
           <a class="text-blue-700 inline-flex items-center" href="https://itustartup.dk" title="ITU Startup Incubator">Read more about the startup incubator and our offers for students on ITUStartup.dk
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
