@@ -103,7 +103,6 @@ const About = () => (
                     alt="Adam Hillestrøm"
                     width={800}
                     height={600}
-                    style={{ position: "absolute !important;" }}
                   />
                   <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Meet our CEO</h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Adam Hillestrøm</h2>
@@ -145,7 +144,6 @@ const About = () => (
                       alt="Georg Dam Steffensen"
                       width={300}
                       height={300}
-                      style={{ position: "absolute !important;" }}
                     />
                     <p class="leading-relaxed">Georg is currently the University Director at ITU and prior head of Finance and HR. He is the executive chairman of the board for continuous education for university employees and head of the board for Danish University HR Managers</p>
                     <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
@@ -162,7 +160,6 @@ const About = () => (
                       alt="Ulrik Jensen"
                       width={300}
                       height={300}
-                      style={{ position: "absolute !important;" }}
                     />
 
                     <p class="leading-relaxed">Ulrik is currently the executive chairman of iMotions A/S and also the chairman and co-founder of WriteReader. He invests in technology through UJ Holding which provides capital and hands-on operational assistance to new companies. Ulrik has a degree from Stanford University, California.</p>
@@ -180,7 +177,6 @@ const About = () => (
                       alt="Georg Dam Steffensen"
                       width={300}
                       height={300}
-                      style={{ position: "absolute !important;" }}
                     />
 
                     <p class="leading-relaxed">Malene is as an attorney &amp; partner from the Scandinavian law firm NJORD. Malene advises start-ups and spin-offs on IP protection and rights. In addition, Malene has in-house experience from an international industrial firm which provides her with a broad skillset to consistently deliver and the ability to act.</p>
