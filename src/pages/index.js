@@ -45,6 +45,7 @@ const IndexPage = () => (
               alt="Researchers at itu"
               width={600}
               height={300}
+              style={{position: "absolute !important;"}} 
             />
                 {/* <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={researchers} /> */}
                 <div class="text-center relative z-10 w-full">
@@ -65,6 +66,7 @@ const IndexPage = () => (
               alt="Students at itu"
               width={600}
               height={300}
+              style={{position: "absolute !important;"}} 
             />
                 {/* <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={students} /> */}
                 <div class="text-center relative z-10 w-full">
