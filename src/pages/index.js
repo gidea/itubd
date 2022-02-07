@@ -5,16 +5,12 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import heylouise from "../images/heylouise.png";
+
 import karlfarm from "../images/karl.png";
 import marionette from "../images/marionette.png";
 import resolved from "../images/resolved.png";
 import forgotten from "../images/forgotten.png";
 import divefm from "../images/divefm.png";
-
-import ITU from "../images/atrium-itu.jpg";
-import students from "../images/software.jpg";
-import researchers from "../images/bridgingthegap.jpg";
 
 const IndexPage = () => (
   <Layout>
@@ -29,7 +25,15 @@ const IndexPage = () => (
 
         <div class="lg:w-2/3 mx-auto">
           <div class="flex flex-wrap w-full bg-gray-100 py-16 px-10 relative mb-4">
-            <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={ITU} />
+          <StaticImage
+              src="../images/atrium-itu.jpg"
+              class="w-full object-cover h-full object-center block opacity-50 absolute inset-0"
+              formats={["auto", "webp", "avif"]}
+              alt="Students at itu"
+              width={1000}
+              height={300}
+            />
+            {/* <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={ITU} /> */}
             <div class="text-center relative z-10 w-full">
               <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Licensing IP &amp; Technologies</h2>
               <p class="leading-relaxed text-gray-900 text-sm text-black">Opportunities from our patent portfolio</p>
@@ -40,7 +44,15 @@ const IndexPage = () => (
           <div class="flex flex-wrap -mx-2">
             <div class="px-2 w-1/2">
               <div class="flex flex-wrap w-full bg-gray-100 py-8 sm:py-6 sm:px-10 px-6 relative">
-                <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={researchers} />
+              <StaticImage
+              src="../images/bridgingthegap.jpg"
+              class="w-full object-cover h-full object-center block opacity-50 absolute inset-0"
+              formats={["auto", "webp", "avif"]}
+              alt="Researchers at itu"
+              width={600}
+              height={300}
+            />
+                {/* <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={researchers} /> */}
                 <div class="text-center relative z-10 w-full">
                   <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Research Spinoffs</h2>
                   <p class="leading-relaxed text-sm text-black">Futher develop or commercialise your research</p>
@@ -52,7 +64,15 @@ const IndexPage = () => (
             </div>
             <div class="px-2 w-1/2">
               <div class="flex flex-wrap w-full bg-gray-100 py-8 sm:py-6 sm:px-10 px-6 relative">
-                <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={students} />
+              <StaticImage
+              src="../images/software.jpg"
+              class="w-full object-cover h-full object-center block opacity-50 absolute inset-0"
+              formats={["auto", "webp", "avif"]}
+              alt="Students at itu"
+              width={600}
+              height={300}
+            />
+                {/* <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={students} /> */}
                 <div class="text-center relative z-10 w-full">
                   <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Student Startups</h2>
                   <p class="leading-relaxed text-gray-900 text-sm text-black">Opportunities for students to start a company</p>
@@ -202,34 +222,82 @@ const IndexPage = () => (
           <div class="flex flex-wrap w-1/2">
             <div class="md:p-2 p-1 w-1/2">
               <a href="https://heylouise.app" title="heyLouise - marketing collaboration" rel="dofollow">
-                <img alt="heylouise marketing collaboration" class="w-full object-cover h-full object-center block" src={heylouise} />
+              <StaticImage
+              src="../images/heylouise.png"
+              class="w-full object-cover h-full object-center block"
+              formats={["auto", "webp", "avif"]}
+              alt="heylouise marketing collaboration"
+              width={800}
+              height={600}
+            />
+                {/* <img alt="heylouise marketing collaboration" class="w-full object-cover h-full object-center block" src={heylouise} /> */}
               </a>
             </div>
             <div class="md:p-2 p-1 w-1/2">
               <a href="https://www.forgotten-game.com/" title="Forgotten - Game" rel="dofollow">
-                <img alt="forgotten game development" class="w-full object-cover h-full object-center block" src={forgotten} />
+              <StaticImage
+              src="../images/forgotten.png"
+              class="w-full object-cover h-full object-center block"
+              formats={["auto", "webp", "avif"]}
+              alt="forgotten game development"
+              width={800}
+              height={600}
+            />
+                {/* <img alt="forgotten game development" class="w-full object-cover h-full object-center block" src={forgotten} /> */}
               </a>
             </div>
             <div class="md:p-2 p-1 w-full">
               <a href="https://marionettexr.com/" title="Marionette - SUITLESS MOTION CAPTURE" rel="dofollow">
-                <img alt="marionette motion capture software" class="w-full h-full object-cover object-center block" src={marionette} />
+              <StaticImage
+              src="../images/marionette.png"
+              class="w-full object-cover h-full object-center block"
+              formats={["auto", "webp", "avif"]}
+              alt="marionette motion capture software"
+              width={800}
+              height={600}
+            />
+                {/* <img alt="marionette motion capture software" class="w-full h-full object-cover object-center block" src={marionette} /> */}
               </a>
             </div>
           </div>
           <div class="flex flex-wrap w-1/2">
             <div class="md:p-2 p-1 w-full">
               <a href="https://www.karl.farm/" title="KARLfarm - farming assistent" rel="dofollow">
-                <img alt="karlfarm agritech monitoring" class="w-full h-full object-cover object-center block" src={karlfarm} />
+              <StaticImage
+              src="../images/karl.png"
+              class="w-full object-cover h-full object-center block"
+              formats={["auto", "webp", "avif"]}
+              alt="karlfarm agritech monitoring"
+              width={800}
+              height={600}
+            />
+                {/* <img alt="karlfarm agritech monitoring" class="w-full h-full object-cover object-center block" src={karlfarm} /> */}
               </a>
             </div>
             <div class="md:p-2 p-1 w-1/2">
               <a href="https://dive.fm" title="private podcasting" rel="dofollow">
-                <img alt="private podcast platform" class="w-full object-cover h-full object-center block" src={divefm} />
+              <StaticImage
+              src="../images/divefm.png"
+              class="w-full object-cover h-full object-center block"
+              formats={["auto", "webp", "avif"]}
+              alt="private podcast platform"
+              width={800}
+              height={600}
+            />
+                {/* <img alt="private podcast platform" class="w-full object-cover h-full object-center block" src={divefm} /> */}
               </a>
             </div>
             <div class="md:p-2 p-1 w-1/2">
               <a href="https://dive.fm" title="private podcasting" rel="dofollow">
-                <img alt="account reconciliation" class="w-full object-cover h-full object-center block" src={resolved} />
+              <StaticImage
+              src="../images/resolved.png"
+              class="w-full object-cover h-full object-center block"
+              formats={["auto", "webp", "avif"]}
+              alt="internal communication"
+              width={800}
+              height={600}
+            />
+                {/* <img alt="internal communication" class="w-full object-cover h-full object-center block" src={resolved} /> */}
               </a>
             </div>
           </div>
