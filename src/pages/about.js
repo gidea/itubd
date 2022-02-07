@@ -138,7 +138,7 @@ const About = () => (
                 <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
                   <div class="h-full text-center">
                     <StaticImage
-                      src="../images/GDS.jpg"
+                      src="../images/gds.jpg"
                       class="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                       formats={["auto", "webp", "avif"]}
                       alt="Georg Dam Steffensen"
