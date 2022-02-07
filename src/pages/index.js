@@ -24,7 +24,7 @@ const IndexPage = () => (
       <div class="container px-5 py-24 mx-auto">
         <div id="content" class="flex flex-col text-center w-full mb-12">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Business Development at the IT University of Copenhagen</h1>
-          <p class="lg:w-2/4 mx-auto leading-relaxed text-gray-700 text-base">As hotbeds of new knowledge and technology, universities are essential catalysts of innovation. Since 1999, knowledge and technology from the IT University of Copenhagen have been converted to more than 100 faculty and student start-up companies, creating new wealth and jobs in the wider Danish society. Relative to its size, the IT University of Copenhagen is the number one university in Denmark when it comes to student venture creation.</p>
+          <p class="lg:w-2/4 mx-auto leading-relaxed text-gray-700 text-base">As hotbeds of new knowledge and technology, universities are essential catalysts of innovation. Since 1999, knowledge and technology from the IT University of Copenhagen have been converted to more than 100 faculty and student startup companies, creating new wealth and jobs in the wider Danish society.</p>
         </div>
 
         <div class="lg:w-2/3 mx-auto">
@@ -168,12 +168,12 @@ const IndexPage = () => (
               <div class="flex flex-col items-center text-center justify-center">
                 <h2 class="font-medium title-font mt-4 text-gray-900 bg-transparent	text-lg">Kasper Støy, Andres Faina</h2>
                 <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-                <p class="text-base text-gray-900 italic">"ITU Business Development has helped us transform our research idea into a company and is still today an active partner in moving our high potential company forward."</p>
+                <p class="text-base text-gray-900 bg-transparent italic">"ITU Business Development has helped us transform our research idea into a company and is still today an active partner in moving our high potential company forward."</p>
               </div>
             </div>
             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-              <p class="leading-relaxed text-gray-800 text-lg mb-4">A new liquid handling robot developed as a spin-off company by researchers at the IT University of Copenhagen is set to improve work processes in laboratories by making it easy to automate repetitive and physically demanding tasks.</p>
-              <p class="text-gray-800 ">Read more about the start of the company in the <a title="ITU Business Development" href="https://en.itu.dk/about-itu/press/news-from-itu/2016/itu-researchers-launch-robot-spin-out"> ITU press announcement</a></p>
+              <p class="leading-relaxed text-gray-800 bg-transparent text-lg mb-4">A new liquid handling robot developed as a spin-off company by researchers at the IT University of Copenhagen is set to improve work processes in laboratories by making it easy to automate repetitive and physically demanding tasks.</p>
+              <p class="text-gray-800 bg-transparent	">Read more about the start of the company in the <a title="ITU Business Development" href="https://en.itu.dk/about-itu/press/news-from-itu/2016/itu-researchers-launch-robot-spin-out"> ITU press announcement</a></p>
               <a class="text-blue-700 inline-flex items-center" href="https://flow-robotics.com">Flow Robotics website
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>

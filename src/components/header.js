@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
       <a class="mr-5 hover:text-gray-900" href="/startups">Startups</a>
       <a class="mr-5 hover:text-gray-900" href="/research">Research</a>
     </nav>
-    <button class="inline-flex items-center bg-orange-500 border-0 py-1 px-3 focus:outline-none hover:bg-orange-600 rounded text-base text-white mt-4 md:mt-0">Contact us
+    <button class="inline-flex items-center bg-orange-500 border-0 py-1 px-3 focus:outline-none hover:bg-orange-600 rounded text-sm text-white mt-4 md:mt-0">Contact us
       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
       </svg>
