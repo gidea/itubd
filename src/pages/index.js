@@ -5,13 +5,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-
-import karlfarm from "../images/karl.png";
-import marionette from "../images/marionette.png";
-import resolved from "../images/resolved.png";
-import forgotten from "../images/forgotten.png";
-import divefm from "../images/divefm.png";
-
 const IndexPage = () => (
   <Layout>
     <Seo title="ITU Business Development A/S - Technology Transfer Office" />
@@ -32,6 +25,7 @@ const IndexPage = () => (
               alt="Students at itu"
               width={1000}
               height={300}
+              style={{position: "absolute !important;"}} 
             />
             {/* <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={ITU} /> */}
             <div class="text-center relative z-10 w-full">
