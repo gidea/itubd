@@ -82,7 +82,7 @@ const About = () => (
                 <p>
                   These activities include but are not limited to:
                 </p>
-                <ol role="list-decimal">
+                <ol class="list-decimal">
                   <li>Identification</li>
                   <li>Assessment</li>
                   <li>Protection</li>
@@ -104,7 +104,7 @@ const About = () => (
                     width={800}
                     height={600}
                   />
-                  <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Meet our CEO</h3>
+                  <h3 class="tracking-widest text-blue-800 text-xs font-medium title-font">Meet our CEO</h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Adam Hillestrøm</h2>
                   <p class="leading-relaxed text-base">Adam is an experienced operator, with a highly specialised background in both business administration and strategic management. Besides working with IP Portfolio management and technology transfer processes at ITU Business Development, Adam is the Chairman of Flow Robotics A/S, a very promising robotics company and ITU spinout.</p>
                 </div>
@@ -129,7 +129,7 @@ const About = () => (
 
             <section class="text-gray-800 mt-16 body-font bg-gray-100 p-6 rounded-lg">
               <div class="container py-10 mx-auto">
-                <div id="content" class="flex flex-col text-center w-full">
+                <div class="flex flex-col text-center w-full">
                   <h2 class="sm:text-2xl text-2xl font-medium title-font mb-4 text-gray-900">Board of Directors</h2>
                 </div>
               </div>
@@ -146,9 +146,9 @@ const About = () => (
                       height={300}
                     />
                     <p class="leading-relaxed">Georg is currently the University Director at ITU and prior head of Finance and HR. He is the executive chairman of the board for continuous education for university employees and head of the board for Danish University HR Managers</p>
-                    <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                    <span class="inline-block h-1 w-10 rounded bg-blue-800 mt-6 mb-4"></span>
                     <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Georg D. Steffensen</h2>
-                    <p class="text-gray-600">Member of the board, ITU Universitetsdirektør</p>
+                    <p class="text-gray-700">Member of the board, ITU Universitetsdirektør</p>
                   </div>
                 </div>
                 <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -163,9 +163,9 @@ const About = () => (
                     />
 
                     <p class="leading-relaxed">Ulrik is currently the executive chairman of iMotions A/S and also the chairman and co-founder of WriteReader. He invests in technology through UJ Holding which provides capital and hands-on operational assistance to new companies. Ulrik has a degree from Stanford University, California.</p>
-                    <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                    <span class="inline-block h-1 w-10 rounded bg-blue-800 mt-6 mb-4"></span>
                     <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Ulrik Jensen</h2>
-                    <p class="text-gray-600">Chairman, Investor</p>
+                    <p class="text-gray-700">Chairman, Investor</p>
                   </div>
                 </div>
                 <div class="lg:w-1/3 lg:mb-0 p-4">
@@ -180,9 +180,9 @@ const About = () => (
                     />
 
                     <p class="leading-relaxed">Malene is as an attorney &amp; partner from the Scandinavian law firm NJORD. Malene advises start-ups and spin-offs on IP protection and rights. In addition, Malene has in-house experience from an international industrial firm which provides her with a broad skillset to consistently deliver and the ability to act.</p>
-                    <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                    <span class="inline-block h-1 w-10 rounded bg-blue-800 mt-6 mb-4"></span>
                     <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Malene Fagerberg</h2>
-                    <p class="text-gray-600">Member of the board, Partner - Deloitte Denmark</p>
+                    <p class="text-gray-700">Member of the board, Partner - Deloitte Denmark</p>
                   </div>
                 </div>
               </div>
