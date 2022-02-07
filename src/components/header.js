@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
     <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
       <a class="mr-5 hover:text-gray-900" href="/about">About us</a>
       <a class="mr-5 hover:text-gray-900" href="/partners">Partners</a>
-      <a class="mr-5 hover:text-gray-900" href="/startups">Startups</a>
+      <a class="mr-5 hover:text-gray-900" href="https://itustartup.dk">Startups</a>
       <a class="mr-5 hover:text-gray-900" href="/research">Research</a>
     </nav>
     <button class="inline-flex items-center bg-orange-500 border-0 py-1 px-3 focus:outline-none hover:bg-orange-600 rounded text-sm text-white mt-4 md:mt-0">Contact us
