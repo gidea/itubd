@@ -27,11 +27,10 @@ const IndexPage = () => (
               height={300}
               style={{position: "absolute !important;"}} 
             />
-            {/* <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={ITU} /> */}
             <div class="text-center relative z-10 w-full">
               <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Licensing IP &amp; Technologies</h2>
               <p class="leading-relaxed text-gray-900 text-sm text-black">Opportunities from our patent portfolio</p>
-              <button class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0">Learn more
+              <button class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0"><a href="/researchers">Learn more</a>
               </button>
             </div>
           </div>
@@ -40,18 +39,17 @@ const IndexPage = () => (
               <div class="flex flex-wrap w-full bg-gray-100 py-8 sm:py-6 sm:px-10 px-6 relative">
               <StaticImage
               src="../images/bridgingthegap.jpg"
-              class="w-full object-cover h-full object-center block opacity-50 absolute inset-0"
+              class="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
               formats={["auto", "webp", "avif"]}
               alt="Researchers at itu"
               width={600}
               height={300}
               style={{position: "absolute !important;"}} 
             />
-                {/* <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={researchers} /> */}
                 <div class="text-center relative z-10 w-full">
                   <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Research Spinoffs</h2>
                   <p class="leading-relaxed text-sm text-black">Futher develop or commercialise your research</p>
-                  <button class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0">Learn more
+                  <button class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0"><a href="/researchers">Learn more</a>
 
                   </button>
                 </div>
@@ -61,18 +59,17 @@ const IndexPage = () => (
               <div class="flex flex-wrap w-full bg-gray-100 py-8 sm:py-6 sm:px-10 px-6 relative">
               <StaticImage
               src="../images/software.jpg"
-              class="w-full object-cover h-full object-center block opacity-50 absolute inset-0"
+              class="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
               formats={["auto", "webp", "avif"]}
               alt="Students at itu"
               width={600}
               height={300}
               style={{position: "absolute !important;"}} 
             />
-                {/* <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src={students} /> */}
                 <div class="text-center relative z-10 w-full">
                   <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Student Startups</h2>
                   <p class="leading-relaxed text-gray-900 text-sm text-black">Opportunities for students to start a company</p>
-                  <button class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0">Learn more
+                  <button class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0"><a href="https://itustartups.dk" rel="nofollow">Learn more</a>
                    
                   </button>
                 </div>
@@ -107,11 +104,6 @@ const IndexPage = () => (
               </div>
               <div class="flex-grow">
                 <p class="leading-relaxed text-gray-800 text-base">When you're starting a company for the first time, it can be a little intimidating. We make it easier with workshops, events &amp; activities which are meant to give you the proper network &amp; skills to start your own company and build a prototype.</p>
-                <a class="mt-3 text-blue-800 inline-flex items-center">Learn More
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
@@ -127,11 +119,6 @@ const IndexPage = () => (
               </div>
               <div class="flex-grow">
                 <p class="leading-relaxed text-gray-800 text-base">As a researcher you might have made an invention or a piece of software which is valuable but might still need work to be commercialised. With us onboard you can reach its true potential and spin-off into a standalone company with our help.</p>
-                <a class="mt-3 text-blue-800 inline-flex items-center">Learn More
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
@@ -147,11 +134,6 @@ const IndexPage = () => (
               </div>
               <div class="flex-grow">
                 <p class="leading-relaxed text-gray-800 text-base">Intellectual property stemming from research conducted at the IT University including patented technologies, software, data and know-how can be offered for commercial use, under licence from ITU Business Development A/S.</p>
-                <a class="mt-3 text-blue-800 inline-flex items-center">Learn More
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>

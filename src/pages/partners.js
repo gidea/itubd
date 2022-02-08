@@ -71,24 +71,67 @@ const Partners = () => (
       <div className="max-w-7xl mx-auto p-8 sm:px-6 lg:py-8 lg:px-8">
        
         <div className="grid grid-cols-2 gap-0.5 md:grid-cols-3">
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-            <img className="max-h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Accelerace"/>
+          <div className="col-span-1 flex justify-center py-8 px-8 bg-transparent">
+          <StaticImage
+                    src="../images/acceleracelogo.jpg"
+                    class=""
+                    formats={["auto", "webp", "avif"]}
+                    alt="Accelerace"
+                    width={600}
+                    height={300}
+                  />
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-            <img className="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="DanBAN" />
+          <div className="col-span-1 flex justify-center py-8 px-8 bg-transparent">
+          <StaticImage
+                    src="../images/danbanlogo.jpg"
+                    class=""
+                    formats={["auto", "webp", "avif"]}
+                    alt="DanBan"
+                    width={600}
+                    height={300}
+                  />
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-            <img className="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="PreSeed Ventures" />
+          <div className="col-span-1 flex justify-center py-8 px-8 bg-transparent">
+          <StaticImage
+                    src="../images/preseedlogo.jpg"
+                    class=""
+                    formats={["auto", "webp", "avif"]}
+                    alt="PreSeed Ventures"
+                    width={600}
+                    height={300}
+                  />
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-            <img className="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg" alt="DreamCraft Ventures" />
+          <div className="col-span-1 flex justify-center py-8 px-8 bg-transparent">
+          <StaticImage
+                    src="../images/dreamcraftlogo.jpg"
+                    class=""
+                    formats={["auto", "webp", "avif"]}
+                    alt="Dreamcraft"
+                    width={600}
+                    height={300}
+                  />
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-            <img className="max-h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="byFounders"/>
+          <div className="col-span-1 flex justify-center py-8 px-8 bg-transparent">
+          <StaticImage
+                    src="../images/byfounderslogo.jpg"
+                    class=""
+                    formats={["auto", "webp", "avif"]}
+                    alt="byFounders"
+                    width={600}
+                    height={300}
+                  />
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-            <img className="max-h-12" src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg" alt="Heartcore VC"/>
+          <div className="col-span-1 flex justify-center py-8 px-8 bg-transparent">
+          <StaticImage
+                    src="../images/heartcorelogo.jpg"
+                    class=""
+                    formats={["auto", "webp", "avif"]}
+                    alt="Heartcore VC"
+                    width={600}
+                    height={300}
+                  />
           </div>
+          
         </div>
       </div>
     </div>
