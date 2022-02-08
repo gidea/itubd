@@ -9,7 +9,7 @@ const Researchers = () => (
   <Layout>
     <Seo title="Research Commercialisation &amp; IP Patent Portfolio - ITU Business Development" />
 
-    <section id="content" class="text-gray-800 body-font bg-gray-100">
+    <section class="text-gray-800 body-font bg-gray-100">
       <div class="container px-5 py-10 mx-auto">
         <div id="content" class="flex flex-col text-center w-full">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Research commercialisation &amp; IP licensing</h1>
@@ -148,10 +148,10 @@ const Researchers = () => (
                   <h2 class="sm:text-2xl text-xl font-medium title-font text-gray-800 bg-transparent	">Inventions &amp; patents in our portfolio</h2>
                 </div>
                 <p>
-                Intellectual property from the IT University – including patented technologies, software, data and know-how – is offered for commercial use under licence from ITU Business Development.
+                Intellectual property from the IT University including patented technologies, software, data and know-how is offered for commercial use under licence from ITU Business Development.
                 </p>
                 <p>ITU Business Development owns a range of technologies based on research from the IT University which is available for licensing. Licensing of university-based technologies can be a clever way for companies to gain access to valuable new knowledge which can provide the company with a new competitive advantage.</p>
-                <p>If you would like to know more about the licensing opportunites currently available & the latest technological developments from ITU researchers, you are very welcome to contact us and book a meeting.</p>
+                <p>If you would like to know more about the licensing opportunites currently available &amp; the latest technological developments from ITU researchers, you are very welcome to contact us and book a meeting.</p>
               </div>
             </div>
 
