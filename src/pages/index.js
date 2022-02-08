@@ -30,8 +30,8 @@ const IndexPage = () => (
             <div class="text-center relative z-10 w-full">
               <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Licensing IP &amp; Technologies</h2>
               <p class="leading-relaxed text-gray-900 text-sm text-black">Opportunities from our patent portfolio</p>
-              <button class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0"><a href="/researchers">Learn more</a>
-              </button>
+              <a href="/researchers" class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0">Learn more
+              </a>
             </div>
           </div>
           <div class="flex flex-wrap -mx-2">
@@ -49,9 +49,7 @@ const IndexPage = () => (
                 <div class="text-center relative z-10 w-full">
                   <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Research Spinoffs</h2>
                   <p class="leading-relaxed text-sm text-black">Futher develop or commercialise your research</p>
-                  <button class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0"><a href="/researchers">Learn more</a>
-
-                  </button>
+                  <a class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0">Learn more</a>
                 </div>
               </div>
             </div>
@@ -69,9 +67,7 @@ const IndexPage = () => (
                 <div class="text-center relative z-10 w-full">
                   <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Student Startups</h2>
                   <p class="leading-relaxed text-gray-900 text-sm text-black">Opportunities for students to start a company</p>
-                  <button class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0"><a href="https://itustartups.dk" rel="nofollow">Learn more</a>
-                   
-                  </button>
+                  <a class="inline-flex items-center bg-orange-400 border-0 py-1 px-3 focus:outline-none hover:bg-orange-500 rounded text-sm text-white mt-4 md:mt-0">Learn more</a>
                 </div>
               </div>
             </div>
