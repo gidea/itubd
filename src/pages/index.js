@@ -193,8 +193,7 @@ const IndexPage = () => (
           </div>
         </div>
         <div class="flex flex-wrap md:-m-2 -m-1">
-          <div class="flex flex-wrap w-1/2">
-            <div class="md:p-2 p-1 w-1/2">
+            <div class="md:p-2 p-1 w-1/4">
               <a href="https://heylouise.app" title="heyLouise - marketing collaboration" rel="dofollow">
               <StaticImage
               src="../images/heylouise.png"
@@ -207,21 +206,9 @@ const IndexPage = () => (
                 {/* <img alt="heylouise marketing collaboration" class="w-full object-cover h-full object-center block" src={heylouise} /> */}
               </a>
             </div>
-            <div class="md:p-2 p-1 w-1/2">
-              <a href="https://www.forgotten-game.com/" title="Forgotten - Game" rel="dofollow">
-              <StaticImage
-              src="../images/forgotten.png"
-              class="w-full object-cover h-full object-center block"
-              formats={["auto", "webp", "avif"]}
-              alt="forgotten game development"
-              width={800}
-              height={600}
-            />
-                {/* <img alt="forgotten game development" class="w-full object-cover h-full object-center block" src={forgotten} /> */}
-              </a>
-            </div>
-            <div class="md:p-2 p-1 w-full">
-              <a href="https://marionettexr.com/" title="Marionette - SUITLESS MOTION CAPTURE" rel="dofollow">
+
+            <div class="md:p-2 p-1 w-1/4">
+            <a href="https://marionettexr.com/" title="Marionette - SUITLESS MOTION CAPTURE" rel="dofollow">
               <StaticImage
               src="../images/marionette.png"
               class="w-full object-cover h-full object-center block"
@@ -230,13 +217,11 @@ const IndexPage = () => (
               width={800}
               height={600}
             />
-                {/* <img alt="marionette motion capture software" class="w-full h-full object-cover object-center block" src={marionette} /> */}
               </a>
             </div>
-          </div>
-          <div class="flex flex-wrap w-1/2">
-            <div class="md:p-2 p-1 w-full">
-              <a href="https://www.karl.farm/" title="KARLfarm - farming assistent" rel="dofollow">
+
+            <div class="md:p-2 p-1 w-1/4">
+            <a href="https://www.karl.farm/" title="KARLfarm - farming assistent" rel="dofollow">
               <StaticImage
               src="../images/karl.png"
               class="w-full object-cover h-full object-center block"
@@ -245,36 +230,27 @@ const IndexPage = () => (
               width={800}
               height={600}
             />
-                {/* <img alt="karlfarm agritech monitoring" class="w-full h-full object-cover object-center block" src={karlfarm} /> */}
               </a>
             </div>
-            <div class="md:p-2 p-1 w-1/2">
-              <a href="https://dive.fm" title="private podcasting" rel="dofollow">
+
+            <div class="md:p-2 p-1 w-1/4">
+            <a href="https://filify.app/" title="Filify - Influencer Marketing" rel="dofollow">
               <StaticImage
-              src="../images/divefm.png"
+              src="../images/filify.png"
               class="w-full object-cover h-full object-center block"
               formats={["auto", "webp", "avif"]}
-              alt="private podcast platform"
+              alt="filify influencer marketing"
               width={800}
               height={600}
             />
-                {/* <img alt="private podcast platform" class="w-full object-cover h-full object-center block" src={divefm} /> */}
               </a>
             </div>
-            <div class="md:p-2 p-1 w-1/2">
-              <a href="https://dive.fm" title="private podcasting" rel="dofollow">
-              <StaticImage
-              src="../images/resolved.png"
-              class="w-full object-cover h-full object-center block"
-              formats={["auto", "webp", "avif"]}
-              alt="internal communication"
-              width={800}
-              height={600}
-            />
-                {/* <img alt="internal communication" class="w-full object-cover h-full object-center block" src={resolved} /> */}
-              </a>
-            </div>
-          </div>
+
+
+            
+          
+          
+         
         </div>
       </div>
     </section>

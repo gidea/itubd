@@ -169,20 +169,20 @@ const About = () => (
                   </div>
                 </div>
                 <div class="lg:w-1/3 lg:mb-0 p-4">
-                  <div class="h-full text-center">
+                  <div class="h-full text-center grayscale">
                     <StaticImage
-                      src="../images/MFR.png"
+                      src="../images/as.jpeg"
                       class="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                       formats={["auto", "webp", "avif"]}
-                      alt="Georg Dam Steffensen"
+                      alt="Anabella Stoica"
                       width={300}
                       height={300}
                     />
 
-                    <p class="leading-relaxed">Malene is as an attorney &amp; partner from the Scandinavian law firm NJORD. Malene advises start-ups and spin-offs on IP protection and rights. In addition, Malene has in-house experience from an international industrial firm which provides her with a broad skillset to consistently deliver and the ability to act.</p>
+                    <p class="leading-relaxed">Anabella is as an experienced legal advisor and IP Specialist with an LL.M. in IP &amp; Information Law from Kings College, London and demonstrated success with counselling, managing, developing and negotiating IP-rights across the entertainment and media industry.</p>
                     <span class="inline-block h-1 w-10 rounded bg-blue-800 mt-6 mb-4"></span>
-                    <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Malene Fagerberg</h2>
-                    <p class="text-gray-700">Member of the board, Partner - Deloitte Denmark</p>
+                    <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Anabella Stoica</h2>
+                    <p class="text-gray-700">Member of the board, Gyldendal</p>
                   </div>
                 </div>
               </div>
@@ -196,6 +196,15 @@ const About = () => (
                   <h2 class="sm:text-2xl text-xl font-medium title-font text-gray-800 bg-transparent">Articles in the media</h2>
 
                   <ul class="divide-y divide-gray-200">
+
+                  <li>
+                      <a href="https://flow-robotics.com/news/flow-robotics-raises-over-10-meuro-in-a-series-a-investment-round/" rel="nofollow" class="mt-3 text-blue-800 inline-flex items-center">Flow Robotics raises over 10 mEuro in a Series A Investment Round
+
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                          <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </li>
 
                     <li>
                       <a href="https://trendsonline.dk/2016/05/20/robot-spin-fra-universitet-skal-revolutionere-laboratoriearbejde/" rel="nofollow" class="mt-3 text-blue-800 inline-flex items-center">TrendsOnline.dk - Robot spin-out fra IT-Universitet skal revolutionere laboratoriearbejde
