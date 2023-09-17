@@ -107,15 +107,14 @@ const Researchers = () => (
                   <div class="bg-gray-100 p-6 mt-8 rounded-lg">
 
                   <StaticImage
-                    src="../images/adam.jpg"
+                    src="../images/nikolaj.jpg"
                     class="h-80 rounded w-full object-cover object-center mb-6"
                     formats={["auto", "webp", "avif"]}
-                    alt="Adam Hillestrøm"
+                    alt="Nikolaj Oppermann"
                     width={800}
                     height={600}
                   />
-                  <h2 class="text-lg text-center text-gray-900 font-medium title-font">Adam Hillestrøm, Chief Executive Officer</h2>
-                  <h3 class="tracking-widest text-center text-blue-800 text-xs font-medium uppercase title-font">Mail: ADHI@ITU.DK</h3>
+                  <h2 class="text-lg text-center text-gray-900 font-medium title-font">Nikolaj Oppermann, Chief Executive Officer</h2>
                   <h2 class="text-xl text-gray-900 font-medium title-font mb-4">Get in touch:</h2>  
                   <p>We are always open to discuss a potential spin-off opportunity if you are a researcher at ITU and you are interested in commercialising your inventions. Contact ITU Business Development, to set up a meeting and discuss the commercial opportunity of your research.</p>
 

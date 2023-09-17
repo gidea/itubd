@@ -97,16 +97,16 @@ const About = () => (
               <div className="mt-6 prose prose-indigo prose-lg text-gray-800 lg:mt-0">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <StaticImage
-                    src="../images/adam.jpg"
+                    src="../images/nikolaj.jpg"
                     class="h-80 rounded w-full object-cover object-center mb-6"
                     formats={["auto", "webp", "avif"]}
-                    alt="Adam Hillestrøm"
+                    alt="Nikolaj Oppermann"
                     width={800}
                     height={600}
                   />
                   <h3 class="tracking-widest text-blue-800 text-xs font-medium title-font">Meet our CEO</h3>
-                  <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Adam Hillestrøm</h2>
-                  <p class="leading-relaxed text-base">Adam is an experienced operator, with a highly specialised background in both business administration and strategic management. Besides working with IP Portfolio management and technology transfer processes at ITU Business Development, Adam is the Chairman of Flow Robotics A/S, a very promising robotics company and ITU spinout.</p>
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Nikolaj Oppermann</h2>
+                  {/* <p class="leading-relaxed text-base"></p> */}
                 </div>
               </div>
             </div>
@@ -154,18 +154,18 @@ const About = () => (
                 <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
                   <div class="h-full text-center">
                     <StaticImage
-                      src="../images/ulrik_jensen.jpg"
+                      src="../images/adam.jpg"
                       class="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                       formats={["auto", "webp", "avif"]}
-                      alt="Ulrik Jensen"
+                      alt="Adam Hillestrøm"
                       width={300}
                       height={300}
                     />
 
-                    <p class="leading-relaxed">Ulrik is currently the executive chairman of iMotions A/S and also the chairman and co-founder of WriteReader. He invests in technology through UJ Holding which provides capital and hands-on operational assistance to new companies. Ulrik has a degree from Stanford University, California.</p>
+                    <p class="leading-relaxed">Adam is an experienced operator, with a highly specialised background in both business administration and strategic management. Besides working with IP Portfolio management and technology transfer processes at ITU Business Development in the past, Adam is the Chairman of Flow Robotics A/S, a very promising robotics company and ITU spinout.</p>
                     <span class="inline-block h-1 w-10 rounded bg-blue-800 mt-6 mb-4"></span>
-                    <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Ulrik Jensen</h2>
-                    <p class="text-gray-700">Chairman, Investor</p>
+                    <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Adam Hillestrøm</h2>
+                    <p class="text-gray-700">Chairman of the board</p>
                   </div>
                 </div>
                 <div class="lg:w-1/3 lg:mb-0 p-4">
